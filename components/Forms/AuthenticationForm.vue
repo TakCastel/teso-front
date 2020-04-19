@@ -89,7 +89,7 @@ export default {
     showFormModale: true,
     isRegistering: false,
     valid: true,
-    identifier: 'Siddon',
+    identifier: '',
     identifierRules: [
       v => !!v || 'Un identifiant est demandé'
     ],
@@ -98,7 +98,7 @@ export default {
       v => !!v || 'Un email est demandé',
       v => /.+@.+/.test(v) || 'Le format mail est requis'
     ],
-    password: 'admin!',
+    password: '',
     passwordRules: [
       v => !!v || 'Renseignez votre mot de passe'
     ],
